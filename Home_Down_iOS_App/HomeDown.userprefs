@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{9785D147-C90E-47FD-A1A0-CBD233E708BB}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HomeDown PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" identitySerialNumber="63F5FA849CCB58E1">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="BXAF75EX77" TeamId="WT2A39U4GJ" />
+  </MonoDevelop.Ide.ItemProperties.HomeDown>
+</Properties>

@@ -1,0 +1,10 @@
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/bin/iPhone/Debug/NavBarTrans.exe
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/bin/iPhone/Debug/NavBarTrans.pdb
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/HomeDown.csproj.CoreCompileInputs.cache
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/NavBarTrans.exe
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/NavBarTrans.pdb
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/optimized/HomeDownLogo.png
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/optimized/

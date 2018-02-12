@@ -1,0 +1,9 @@
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/bin/iPhone/Release/NavBarTrans.exe
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/actool/_PartialAppManifest.items
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/actool/_BundleResourceWithLogicalName.items
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/optimized/
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/HomeDown.csproj.CoreCompileInputs.cache
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/NavBarTrans.exe
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/optimized/HomeDownLogo.png
+/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Release/HomeDown.csprojResolveAssemblyReference.cache

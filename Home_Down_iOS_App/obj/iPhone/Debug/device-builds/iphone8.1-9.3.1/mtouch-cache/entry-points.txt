@@ -1,0 +1,9 @@
+Function=UIApplicationMain
+	/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/device-builds/iphone8.1-9.3.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/device-builds/iphone8.1-9.3.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_timezone_get_data
+	/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/device-builds/iphone8.1-9.3.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/fordj/Desktop/recipes-master/ios/content_controls/web_view/load_a_web_page/obj/iPhone/Debug/device-builds/iphone8.1-9.3.1/mtouch-cache/Link/mscorlib.dll
+Function=mono_pmip
