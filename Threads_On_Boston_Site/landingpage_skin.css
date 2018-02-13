@@ -1,0 +1,112 @@
+﻿/* Threads On Boston Landing Page */
+body
+{
+}
+
+.topbar {
+    height: 10px;
+    background-color: #ebb96d;
+}
+
+.logo-image {
+    display: block;
+    margin: 100px auto;
+    max-width: 100%;
+}
+
+.landing-contact-info p {
+    text-align: center;
+    font-family: 'Nixie One', serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+@media(min-width: 1024px) {
+    .landing-contact-info p {
+    font-size: 17px;
+    }
+}
+
+.landing-contact-info p > a {
+    text-align: center;
+    font-family: 'Nixie One', serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+@media(min-width: 1024px) {
+    .landing-contact-info p > a {
+    font-size: 17px;
+    }
+}
+
+.bullet {
+    margin: 0 8px;
+    font-size: 12px;
+}
+
+@media(min-width: 1024px) {
+    .bullet {
+    margin: 0 20px;
+    font-size: 20px;
+    }
+}
+
+.coming-soon h1 {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #f6b252;
+    font-style: italic;
+    margin: 75px 0px 50px 0px;
+}
+
+@media(min-width: 1024px) {
+    .coming-soon h1 {
+    font-size: 70px;
+    }
+}
+
+.social-media-images {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-media-images a:hover {
+    text-decoration: none;
+}
+
+.social-media-images img {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.clothes-images > .row > .col-md-4 {
+    padding: 0px;
+}
+
+/*@media(min-width: 1024px) {
+.clothes-images > .row > .col-md-4 {
+    padding: 0px 200px; small
+    }
+}*/
+
+@media(min-width: 1024px) {
+.clothes-images > .row > .col-md-4:first-of-type, .clothes-images > .row > .col-md-4:last-of-type {
+    width: 32.66%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .clothes-images > .row > .col-md-4:nth-of-type(2n) {
+        width: 32.66%;
+        margin: 0px 1%;
+    }
+}
+
+img.clothing-images {
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/BaseMasterPage.master" CodeFile="ChildMasterPage.master.cs" Inherits="ChildMasterPage" %>
+<asp:Content runat="server" ContentPlaceHolderID="head">
+    <asp:ContentPlaceHolder runat="server" ID="head">
+        <link href="http://www.homedown.com/apple-touch-icon.png" rel="apple-touch-icon" />
+        <link href="http://www.homedown.com/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+        <link href="http://www.homedown.com/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+        <link href="http://www.homedown.com/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+        <link rel="manifest" href="manifest.json" />
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="MainContent">
+        <header>
+            <div class="child-menu-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+                            <a id="mobile-menu-button" class="btn mobile-header-button-a pull-left" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="mobile-header-button glyphicon glyphicon-menu-hamburger"></span>
+                            </a>
+                        </div>
+                    </div><!-- closing row -->
+                </div><!-- closing mobile nav container -->
+
+                <div class="child-logo">
+                    <a href="/index.aspx"><img src="/images/HomeDownLogoChild.png" alt="HomeDown Logo" /></a>
+                </div>
+                <div id="navdttg2" class="collapse navbar-collapse main-nav-container">
+                    <ul class="nav navbar-nav">
+                        <li class="Level1">
+                            <a href="WhyHomeDown.aspx">Why Home Down</a>
+                        </li>
+                        <li class="Level1">
+                            <a href="FindASpecialist.aspx">Find A Specialist</a>
+                        </li>
+                        <li class="Level1">
+                            <a href="Services.aspx">Services</a>
+                        </li>
+                        <li class="Level1">
+                            <a href="BecomeASpecialist.aspx">Become A Specialist</a>
+                        </li>
+                    </ul>
+                </div><!-- closing navdttg -->
+            </div><!-- closing menu-container-->
+        </header>
+    <asp:ContentPlaceHolder id="MainContent" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
