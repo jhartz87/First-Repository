@@ -41,7 +41,7 @@ Visit the live site at http://attcppwtools.org/home.aspx.
 
 ## Unity Data Systems WordPress Theme
 
-Current work in progress. Unity Data's main website is hosted on DNN but wants to use WP theme and CMS for the blog content. Unity Data hired another developer to create a WP theme, but it is written in HTML5 using WebFlow framework, which if you do any research into converting WP themes you would stay FAR FAR away from using WebFlow (it has its own simple CMS so why even bother converting / its HTML structure isn't the same as strict HTML5 so converting to WP/PHP is tricky - for example WebFlow doesn't use the usual <ul> <li> list structure for menus; it just uses containers, links, and CSS).
+Current work in progress. Unity Data's main website is hosted on DNN but wants to use WP theme and CMS for the blog content. Unity Data hired another developer to create a WP theme, but it is written in HTML5 using WebFlow framework, which if you do any research into converting WP themes you would stay FAR FAR away from using WebFlow. The two main arguments for this is 1. WebFlow has its own simple CMS so why even bother converting and 2. WebFlow's HTML structure isn't strict HTML5 so converting to WP/PHP is tricky. For example, WebFlow doesn't use the usual <ul> <li> list structure for menus; it just uses containers, links, and CSS.
   
 When it is finished, you will see it as part of this site: http://www.unitydatasystems.com
   
