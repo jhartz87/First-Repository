@@ -27,7 +27,7 @@ Visit the live site at http://threadsonboston.com/.
 
 Created for a client of PLC Marketing. Written with HTML, CSS, JS/jQuery, and MS SQL database with a DNN framework. Also uses Google Web Service APIs for search bar, reCAPTCHA, and analytics. Design is responsive with cross-browser compatability.
 
-The menu on this site took so. much. JS/jQuery tweaking. It was a great, and by great I mean really, really long, learning experience. This site also uses a carousel that has to play nice with the drop down menu, tabs, submenus, contact form, and supposedly to be done en Espanol. Still waiting on the go for that part. 
+The menu on this site took so. much. JS/jQuery tweaking. It was a great, and by great I mean really, really long, learning experience. This site also uses a carousel that has to play nice with the drop down menu, tabs, submenus, and contact forms.
 
 Scheduled to go live whenever-the-client-feels-like-it-but-can-you-get-those-code-changes-done-right-this-minute? The current site to be replaced with this masterpiece is http://tradewindspower.com/.
 
@@ -46,4 +46,6 @@ Current work in progress. Unity Data's main website is hosted on DNN but wants t
 When it is finished, you will see it as part of this site: http://www.unitydatasystems.com
   
 That WordPress so hot right now. WP/PHP is a great new skill to learn and one I've been wanting to do for awhile. I have my own WP blog that currently uses the free WP.com platform, but I dream a dream of one day of writing my own theme and hosting my own WP.org blog that probably just mostly my mother will read. Feels like time for a shameless plug: https://mountaindewatmidnight.com/
+
+On a more serious note, if you are impressed with the work above and are in the market to contract a web developer for a functional and saavy-looking web solution, please contact my freelance company, Web Wizards LLC. https://webwizardsllc.com 
 
