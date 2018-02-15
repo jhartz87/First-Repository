@@ -632,22 +632,16 @@ a:focus {
 .glyphicon-menu-hamburger {
     color: #cc082e;
     font-size: 20px;
-    margin-top: 150%;
+    margin-top: 70%;
 }
 
 @media(min-width: 414px) {
     .glyphicon-menu-hamburger {
-        margin-top: 170%;
+        margin-top: 100%;
     }
 }
 
 @media(min-width: 568px) {
-    .glyphicon-menu-hamburger {
-       margin-top: 300%;
-    }
-}
-
-@media(min-width: 736px) {
     .glyphicon-menu-hamburger {
        margin-top: 250%;
     }
@@ -832,7 +826,7 @@ img.tab-image {
 
 @media (min-width: 568px) {
     img.tab-image {
-    padding: 0px 20px 50px 0px;
+    padding: 0px 20px 0px 0px;
     max-width: 50%; 
     }
 }
@@ -876,6 +870,13 @@ img.tab-image {
 
 .tabText {
     padding: 0px;
+    display: inline-block;
+}
+
+@media(min-width: 736px) {
+    .tabText {
+        display: unset;
+    }
 }
 
 .page-body-container.tab-body p {

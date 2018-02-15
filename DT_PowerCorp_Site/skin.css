@@ -627,6 +627,7 @@
     width: 100%;
     background-color: #00A886;
     text-align: center;
+    padding: 5px;
 }
 
 @media(min-width: 768px) {
@@ -686,28 +687,32 @@
 }
 }
 
-.quickButton button {
+.quickButton .button {
     width: 75%;
     height: 50px;
     border: 1px solid #ffffff;
     background-color: #00a886;
-    padding: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    padding: 15px;
+    margin: 0px auto;
+    text-align: center;
 }
 
 @media (min-width: 568px) {
-    .quickButton button {
-    width: 180px;
-    height: 63px;
-    padding: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
+    .quickButton .button {
+        width: 180px;
+        height: 63px;
+        padding: 20px;
+        margin-top: 20px;
+    }
 }
 
-.quickButton button > a {
+@media (min-width: 1024px) {
+    .quickButton .button {
+        margin-left: 20px;
+    }
+}
+
+.quickButton .button > a {
     font-family: "PT Sans", sans-serif;
     font-size: 15px;
     color: #ffffff;
@@ -715,7 +720,7 @@
 }
 
 @media (min-width: 568px) {
-    .quickButton button > a {
+    .quickButton .button > a {
     font-size: 22px;
 }
 }
@@ -791,7 +796,6 @@
 @media (min-width: 1024px) {
     .ourStoryVideoText {
     top: 200px;
-    left: 20px;
     right: 20px;
 }
 }
@@ -853,40 +857,33 @@
 }
 }
 
-.ourStoryVideoText button {
+.ourStoryVideoText .button {
     width: 50%;
     height: 30px;
     border: 1px solid #ffffff;
     background-color: transparent;
     padding: 5px;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-@media(min-width: 480px) {
-    .ourStoryVideoText button {
-        margin-top: 15px;
-    }
+    margin: 0px auto;
 }
 
 @media(min-width: 568px) {
-    .ourStoryVideoText button {
+    .ourStoryVideoText .button {
         width: 180px;
         height: 50px;
-        padding: 10px;
+        padding: 15px;
         margin-top: 10px;
     }
 }
 
 @media(min-width: 768px) {
-    .ourStoryVideoText button {
+    .ourStoryVideoText .button {
     height: 63px;
-    margin-left: 20px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 30px;
 }
 }
 
-.ourStoryVideoText button > a {
+.ourStoryVideoText .button > a {
     font-family: "PT Sans", sans-serif;
     font-size: 10px;
     color: #ffffff;
@@ -894,13 +891,13 @@
 }
 
 @media(min-width: 568px) {
-    .ourStoryVideoText button > a {
+    .ourStoryVideoText .button > a {
         font-size: 15px;
     }
 }
 
 @media(min-width: 768px) {
-    .ourStoryVideoText button > a {
+    .ourStoryVideoText .button > a {
     font-size: 22px;
 }
 }
@@ -995,32 +992,30 @@
 }
 }
 
-.latestNewsText button {
+.latestNewsText .button {
     width: 75%;
     height: 50px;
     border: 1px solid #0050A3;
     background-color: #ffffff;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding: 15px;
+    margin: 20px auto;
 }
 
 @media(min-width: 568px) {
-    .latestNewsText button {
+    .latestNewsText .button {
     width: 289px;
     height: 71px;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 25px;
 }
 }
 
 @media(min-width: 768px) {
-    .latestNewsText button {
+    .latestNewsText .button {
     margin-top: 50px;
 }
 }
 
-.latestNewsText button > a {
+.latestNewsText .button > a {
     font-family: "PT Sans", sans-serif;
     font-size: 12px;
     color: #0050A3;
@@ -1028,7 +1023,7 @@
 }
 
 @media(min-width: 568px) {
-    .latestNewsText button > a {
+    .latestNewsText .button > a {
     font-size: 26px;
 }
 }
@@ -1295,16 +1290,16 @@
     line-height: 1.3;
 }
 
-.contactUsText button {
+.contactUsText .button {
     width: 200px;
     height: 54px;
     border: 1px solid #ffffff;
     background-color: #29afe7;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 15px;
+    margin: 20px auto;
 }
 
-.contactUsText button > a {
+.contactUsText .button > a {
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     color: #ffffff;
