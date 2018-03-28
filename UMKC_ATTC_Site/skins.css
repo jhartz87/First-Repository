@@ -1,5 +1,4 @@
-﻿/* ATTC */
-body {
+﻿body {
 }
 
 /* Logo, Search bar, and Social media icons*/
@@ -8,17 +7,18 @@ body {
     padding-left: 0px;
 }
 
-/*.img-logo {
+.img-logo {
     margin-top: 15px;
     width: 225px;
     height: 60px;
-} */
+}
 
+@media (min-width: 1024px) {
     .img-logo {
-        margin-top: 15px;
-        max-width: 100%;
-        width: 467px;
+        width: 100%;
+        height: 100%;
     }
+}
 
 .searchbar {
     margin-top: 35px;
@@ -134,7 +134,6 @@ body {
     .nav > li {
         height: 185px;
         margin-right: 70px;
-        text-align: center;
     }
 }
 
@@ -142,13 +141,6 @@ body {
     .nav > li {
         margin-right: 52px;
         height: 185px;
-        width: 140px;
-    }
-}
-
-@media (min-width: 1140px) {
-    .nav > li {
-         width: 180px;
     }
 }
 
@@ -157,14 +149,8 @@ body {
 }
 
 .nav > li:hover {
-    background-color: inherit;
+    background-color: #721e5a;
     color: #ffffff;
-}
-
-@media (min-width: 768px) {
-    .nav > li:hover {
-        background-color: #721e5a;
-    }
 }
 
 .nav > li > a {
@@ -178,11 +164,6 @@ body {
 }
 
 .nav > li:hover > a, .nav > li > a:hover {
-    background-color: #721e5a;
-    color: #ffffff;
-}
-
-.nav .open>a {
     background-color: #721e5a;
     color: #ffffff;
 }
@@ -457,31 +438,15 @@ body {
 }
 
 .leftnav-links {
-        margin-top: 15px;
-        margin-left: 15px;
-        line-height: 1.5em;
-    }
-
-
-@media (min-width: 1024px) {
-    .leftnav-links {
-        margin-top: 25px;
-        line-height: 2em;
-    }
+    margin-top: 25px;
 }
 
-.leftnav-links a {
+    .leftnav-links a {
         font-weight: 600;
-        font-size: 15px;
+        font-size: 25px;
         color: #721e5a;
         text-transform: uppercase;
     }
-
-@media (min-width: 1024px) {
-    .leftnav-links a {
-        font-size: 25px;
-    }
-}
 
 .level2-content {
     margin-top: 32px;
@@ -559,15 +524,8 @@ body {
 }
 
 .level4-sidebar {
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
-@media (min-width: 1024px) {
-    .level4-sidebar {
-        margin-top: 50px;
-        margin-left: 50px;
-    }
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
     .level4-sidebar h1 {
@@ -706,13 +664,9 @@ footer {
     border-radius: 4px;
     background-color: #00345f;
     height: auto;
-    max-width: 262px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-}
-
-.img-samhsaicon {
-    max-width: 100%;
 }
 
 .footer-copyright {
