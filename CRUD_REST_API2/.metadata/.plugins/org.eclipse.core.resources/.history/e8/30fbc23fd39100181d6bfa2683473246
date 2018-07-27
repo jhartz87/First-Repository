@@ -1,0 +1,29 @@
+package model;
+
+public class Collection {
+	
+	int id = 0;
+	String product;
+	String teamName;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id++;
+	}
+	
+	public String getProduct() {
+		return product;
+	}
+	public void setProduct(String product) {
+		this.product = product;
+	}
+	public String getTeamName() {
+		return teamName;
+	}
+	public void setTeamName(String teamName) {
+		this.teamName = teamName;
+	}
+	
+}

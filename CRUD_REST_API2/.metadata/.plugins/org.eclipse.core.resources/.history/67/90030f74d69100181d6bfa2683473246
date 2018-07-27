@@ -1,0 +1,51 @@
+package service;
+
+import java.util.Hashtable;
+
+import org.springframework.stereotype.Service;
+
+import model.Collection;
+
+@Service
+public class CollectionService {
+	
+	Hashtable<String, Collection> collection = new Hashtable<String, Collection>();
+	
+	public CollectionService() {
+		Collection firstCollection = new Collection();
+		int id = firstCollection.getId();
+		firstCollection.setId(id);
+		String productId = String.valueOf(id);
+		firstCollection.setProduct("Basketball Jersey");
+		firstCollection.setTeamName("Portland Trailblazers");
+		collection.put(productId, firstCollection);
+
+		Collection secondCollection = new Collection();
+		id = secondCollection.getId();
+		productId = String.valueOf(id);
+		secondCollection.setProduct("Basketball Jersey");
+		secondCollection.setTeamName("Golden State Knights");
+		collection.put(productId, secondCollection);
+	}
+	
+	public Collection getCollection(String product) {
+		if (collection.containsKey(product))
+			return collection.get(product);
+		else
+			return null;
+	}
+	
+	public Hashtable<String, Collection> getAll() {
+		return collection;
+	}
+	
+	public Hashtable<String, Collection> postEntry(String val1, String val2) {
+		Collection newCollection = new Collection();
+		int id = newCollection.getId();
+		String productId = String.valueOf(id);
+		newCollection.setProduct(val1);
+		newCollection.setTeamName(val2);
+		collection.put(productId, newCollection);
+		return collection;
+	}
+}

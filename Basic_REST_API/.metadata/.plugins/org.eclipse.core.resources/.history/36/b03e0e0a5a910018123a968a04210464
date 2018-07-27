@@ -1,0 +1,27 @@
+package service;
+
+public class CollectionService {
+	
+	Hashtable<String, Collection> collection = new Hashtable<String, Collection>();
+	
+	public CollectionService() {
+		Collection firstCollection = new Collection();
+		firstCollection.setProduct("Basketball Jersey");
+		firstCollection.setTeamName("Portland Trailblazers");
+		collection.put("1", firstCollection);
+
+		Collection firstCollection = new Collection();
+		firstCollection.setProduct("Basketball Jersey");
+		firstCollection.setTeamName("Golden State Knights");
+		collection.put("2", firstCollection);
+	}
+	public Collection getPerson(String id) {
+		if (collection.containsKey(product))
+			return collection.get(product);
+		else
+			return null;
+	}
+	public Hashtable<String, Collection> getAll() {
+		return collection;
+	}
+}
