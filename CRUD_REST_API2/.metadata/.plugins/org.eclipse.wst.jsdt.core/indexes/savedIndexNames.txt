@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+/Users/fordj/GitHub_Personal/Portfolio/CRUD_REST_API/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-245653474.index
-2178289798.index
-2363288783.index
-722773445.index
-1358310240.index
-429788090.index
