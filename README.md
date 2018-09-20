@@ -49,3 +49,7 @@ That WordPress so hot right now. WP/PHP is a great new skill to learn and one I'
 
 On a more serious note, if you are impressed with the work above and are in the market to contract a web developer for a functional and saavy-looking web solution, please contact my freelance company, Web Wizards LLC. https://webwizardsllc.com 
 
+## Resume
+
+A snapshot of all the technologies and acroynms I try to stay proficient in. :P
+
